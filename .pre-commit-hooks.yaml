@@ -1,0 +1,7 @@
+- id: gradle-ktlint
+  name: Format code with ktlint
+  entry: ./gradlew ktlintFormat
+  language: system
+  always_run: true
+  require_serial: true
+  pass_filenames: false
