@@ -14,7 +14,7 @@ Put this in your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: git://github.com/ScoreUnder/pre-commit-gradle-ktlint
-  sha: main
+  rev: main
   hooks:
     - id: gradle-ktlint
 ```
